@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.navbar-expand-lg {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  background-color: #e7e5e5 !important;
+}
+
+.home_background {
+  background-image: url("../assets/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: "90vh";
+}
+.button_class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_class:hover {
+  background-color: #3e9d7c !important;
+}
+.button_vision-class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_vision-class:hover {
+  background-color: #036e8c !important;
+}
+
+.signUp_Form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+}
+
+.signup_form_control {
+  border: none;
+  outline: none;
+  padding: 12px 3px 0px !important;
+}
+
+.google_facebook_link {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+}
+
+.homeWrapper--section {
+  background-color: #036e8c;
+  padding: 50px;
+  color: #fff;
+}
+.homeWrapper--section .container h4 {
+  font-size: 20px;
+}
+
+.aboutVision-Container {
+  width: 100%;
+  background-color: rgba(44, 50, 61, 0.9);
+}
+
+/* .contact_box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} */
+
+/* .contact_form-shadow {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} */
+
+.cust_apply_box {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+  rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* bank slider  */
+.slick-slide > div {
+  margin: 0 10px;
+}
